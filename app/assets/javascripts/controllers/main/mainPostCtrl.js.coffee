@@ -1,0 +1,4 @@
+@PostCtrl = ($scope, $routeParams) ->
+  $scope.data =
+    post: {title: 'Test Post', contents: 'Mus pulvinar magnis amet eros ac ut mattis? Mus turpis pulvinar rhoncus montes dis, magnis ridiculus phasellus? Placerat proin mus lacus vel magnis lectus, magna platea. Cursus lorem, odio et. Nunc penatibus. Montes pellentesque nunc parturient! Tincidunt dignissim aenean natoque, ac natoque? Porttitor penatibus sit magnis parturient sociis, sit porta, urna in pellentesque integer magnis turpis in purus mauris diam, quis rhoncus mattis integer, scelerisque nec quis pulvinar sed urna, dapibus mid. Mauris rhoncus rhoncus sed nec non vel, scelerisque. In pid augue ac! Lundium tempor montes enim? Elementum magna scelerisque? Et, cras rhoncus hac dignissim. Eros elementum cursus elit amet turpis tortor auctor, mauris? Eros, auctor dolor augue scelerisque ridiculus platea nascetur est et ridiculus tristique mus magna adipiscing.'}
+  $scope.data.postId = $routeParams.postId

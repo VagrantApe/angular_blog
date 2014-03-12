@@ -12,7 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
 //= require underscore
-//= requie bootstrap
 //= require angular
-
+//= require angular-route
+//= require underscore
