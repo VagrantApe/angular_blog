@@ -1,4 +1,15 @@
-<h1 class='text-center'>{{ data.postId }} - {{ data.postData.posts[data.postId].title }}</h1>
-<div class='row'>
-  <p>{{ data.postData.posts[data.postId].contents }}</p>
+<div class='navbar navbar-fixed-top'>
+  <div class='navbar-inner'>
+    <a href='#' class='brand'>Angular Blog</a>
+    <ul class='nav pull-right'>
+      <li><a ng-click='navNewPost()'>New Post</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class='container' style='margin-top: 40px'>
+  <h1 class='text-center'>{{ data.currentPost.title }}</h1>
+  <div class='row'>
+    <button class='btn btn-default' ng-click='editPost()'>Edit</button>
+  </div>
 </div>

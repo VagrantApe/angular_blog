@@ -10,7 +10,7 @@
 <div class='container' style='margin-top: 40px'>
   <h1 class='text-center'>Angular Blog</h1>
   <div class='row' ng-repeat="post in data.posts">
-    <h2><a ng-click="viewPost(post.id)">{{ post.title }}</a></h2>
+    <h2><a ng-click="viewPost($index)">{{ post.title }}</a></h2>
     <p>{{ post.contents }}</p>
   </div>
 </div>
